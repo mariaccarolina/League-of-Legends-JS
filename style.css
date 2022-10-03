@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 1920px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.containerLogin {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 14vw;
+  margin-top: 8vh;
+}
+
+h1 {
+  margin-top: 15vh;
+  font-size: 17px;
+  margin-bottom: 1vh;
+}
+
+.formLogin {
+  margin-top: 1vh;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.username,
+.password {
+  width: 20vw;
+  height: 7.5vh;
+  margin-bottom: 1vh;
+  background-color: #e8e6e6;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 2px;
+}
+
+.socialMedias {
+  width: 22.5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.facebook {
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2051ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.logo-facebook {
+  width: 1.4vw;
+  height: 3vh;
+}
+
+.gmail {
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a0000;
+  border: none;
+  border-radius: 5px;
+}
+
+.logo-gmail {
+  width: 1.4vw;
+  height: 3vh;
+}
+
+.apple {
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.logo-apple {
+  width: 1.4vw;
+  height: 3vh;
+}
+
+.checkSpace {
+  display: flex;
+  margin-left: -12.5vw;
+  margin-top: 3vh;
+}
+
+.inputCheck {
+  background-color: #a6a6a6;
+}
+
+.check-label {
+  margin-left: 0.4vw;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.containerStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 12vh;
+  height: 14vh;
+}
+
+.boxArrow {
+  width: 3vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2vh;
+  background-color: #ff002e;
+}
+
+.arrowRight {
+  width: 2vw;
+  height: 4vh;
+}
+
+h3,
+p {
+  font-size: 10px;
+  color: #a6a6a6;
+}
+
+.majorImage {
+  width: 100%;
+  height: 99.3vh;
+  border: none;
+}
